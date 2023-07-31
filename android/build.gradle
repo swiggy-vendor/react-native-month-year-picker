@@ -41,6 +41,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.gusparis.monthpicker"
     compileSdkVersion safeExtGet('compileSdkVersion', DEFAULT_COMPILE_SDK_VERSION)
     buildToolsVersion safeExtGet('buildToolsVersion', DEFAULT_BUILD_TOOLS_VERSION)
     defaultConfig {
